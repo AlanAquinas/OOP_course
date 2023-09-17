@@ -1,5 +1,5 @@
 # OOP_course
- Object-oriented programming course
+ Object-oriented programming course in KBTU
  =========================================================================================
 #1. Object Orientation as a New Paradigm . Introduction to Java programming language.
 
