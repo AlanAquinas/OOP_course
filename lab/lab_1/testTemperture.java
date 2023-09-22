@@ -1,6 +1,6 @@
 package lab.lab_1;
 
-public class testTemperture {
+public class TestTemperture {
 
 	public static void main(String[] args) {
         // Create a Temperature object

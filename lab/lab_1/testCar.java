@@ -2,7 +2,7 @@ package lab.lab_1;
 
 import lab.lab_1.Car.CarType;
 
-public class testCar {
+public class TestCar {
 
 	public static void main(String[] args) {
         Car car1 = new Car("Toyota", "Camry", 2022, CarType.SEDAN);
