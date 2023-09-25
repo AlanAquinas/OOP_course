@@ -21,7 +21,9 @@ public class Student {
 	public String getName() {
 		return this.name;
 	}
-	
+	public void setName(String name) {
+		this.name = name;
+	}
 	public int getScore () {
 		return score;
 	}

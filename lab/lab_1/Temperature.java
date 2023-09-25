@@ -40,7 +40,6 @@ public class Temperature {
         }
     }
     
-    // Mutator methods to set value, scale, and both
     public void setValue(double value) {
         this.value = value;
     }
@@ -54,7 +53,6 @@ public class Temperature {
         this.scale = scale;
     }
 
-    // Method to return scale
     public char getScale() {
         return scale;
     }

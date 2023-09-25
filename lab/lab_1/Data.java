@@ -6,9 +6,9 @@ public class Data {
 	private int count;
 	
 	public Data() {
-		sum = 0;
-		max = Double.MIN_VALUE;
-		count = 0;
+		this.sum = 0;
+		this.max = Double.MIN_VALUE;
+		this.count = 0;
 	}
 	
 	public void addNum(double num) {

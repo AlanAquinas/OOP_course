@@ -31,27 +31,27 @@ public class Car {
 		this.type = type;
 	}
 	
-	// Method overloading
+	// overloading
     public void accelerate(int mph) {
         currentSpeed += mph;
         System.out.println("Accelerating to " + currentSpeed + " mph");
     }
 
     public void accelerate() {
-        accelerate(10); // Default acceleration of 10 mph
+        accelerate(10); // Default acceleration
     }
     
-    // Getter for make (read-only)
+    // Getter
     public String getMake() {
         return make;
     }
 
-    // Setter for type (enum)
+    // Setter
     public void setType(CarType type) {
         this.type = type;
     }
 
-    // Using "this" keyword to differentiate instance variable from parameter
+    // Using "this" keyword
     public void setModel(String model) {
         this.model = model;
     }
@@ -59,7 +59,7 @@ public class Car {
     public void setMake(String make) {
         this.make = make;
     }
-    // Display car information
+   
     public void displayInfo() {
         System.out.println("Make: " + make);
         System.out.println("Model: " + model);

@@ -3,7 +3,7 @@ package practice2;
 public class testStudent {
 
 	public static void main(String[] args) {
-//		Student student1 = new Student("Alan", "22B03333345667");
+//		Student student1 = new Student("Alan", "1");
 //		
 //		System.out.println("Name of student: " + student1.getName());
 //		System.out.println("Id: " + student1.getId());

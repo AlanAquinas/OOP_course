@@ -15,11 +15,10 @@ public class TestGradeBook {
         
 		
 		System.out.print("Input data of students(name, grade): ");
-        while (scanner.hasNext()) {       
+        while (scanner.hasNext()) {     
 			String name = scanner.next();
 			if (name.equals("exit")) break;
 			int grade = scanner.nextInt();
-			
 			
 			gradebook.addStudent(name, grade);
 		}
